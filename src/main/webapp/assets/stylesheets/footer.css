@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+
+/*FOOTER*/
+
+/* ---------------------footer -------------------------*/
+footer {
+	/* background-color: rgb(53, 54, 63); 
+	background-color: #260101;
+	background-color: rgb(28, 6, 1, 0.94);
+	*/
+	/* color: #c4a52b; */
+	color: #ec8f16;
+	font-weight: 700;
+	padding: 5px;
+	text-align: center;
+	margin-top: 30px;
+	border-top: 7px solid #ffc107
+}
+
+.contenedor__footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.redes-sociales__footer {
+	width: 47%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	max-width: 500px;
+}
+
+.redes-sociales__siguenos__footer {
+	margin-top: 30px;
+}
+
+.redes-sociales__icon__footer {
+	font-size: 35px;
+	/*margin: 5px 0;
+	color: #30353B;*/
+	margin-top: 24px;
+	color: rgba(255, 193, 7, 0.41)
+}
+
+.redes-sociales__icon__footer:hover {
+	color: #4a4c4e;
+}
+
+.subscribete__footer {
+	width: 47%;
+}
+
+.subscribete__footer h3 {
+	font-size: 16px;
+}
+
+/* .form__footer {
+*/
+.inputEmail__form__footer {
+	border: 1px solid #eb9411;
+	border-radius: 6px;
+	font-size: 15px;
+	outline: none;
+	padding: 15px 10px;
+	font-weight: 700;
+	background-color: inherit;
+	color: #fff;
+}
+
+.inputEmail__form__footer:focus {
+	background-color: #1f1f1f;
+}
+
+.inputSubmit__form__footer {
+	border: none;
+	margin-left: 8px;
+}
+
+.p__footer {
+	font-size: 15px;
+	padding: 10px;
+	margin: 20px auto 10px;
+	border-top: 2px solid #eb9411;
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+

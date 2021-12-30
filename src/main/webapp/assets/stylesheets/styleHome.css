@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+		scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica,
+		Arial, sans-serif;
+	overflow-x: hidden;
+	box-sizing: border-box;   
+}
+
+
+
+/*nav*/
+.nav-style {
+	background-color: rgba(0, 0, 0, .5);
+	color: #fff; 
+	font-weight: 700;
+}
+
+.button{
+	color: #fff;
+	font-weight: 700;
+	border: 2px solid #fff;
+}
+
+.button:hover{
+	background-color: rgba(0, 0, 0, .5);
+	color: #fff;
+	border: 2px solid #ffde59;
+}
+
+.nav-item:hover {
+	background-color: rgba(0, 0, 0, .5);
+
+}
+
+
+/*Imagen principal*/
+.imagenDestacada {
+	/*
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Hobbiton%2C_The_Shires%2C_Middle_Earth%2C_Matamata%2C_North_Island%2C_New_Zealand_-_panoramio_%2810%29.jpg");
+	*/
+	background-image: url("	https://media1.popsugar-assets.com/files/thumbor/_078oWa6_jOZFaGJ0DJUIv85q9I/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2013/12/12/084/n/1922507/ce72efdc24c25981_Screen_Shot_2013-12-12_at_4.39.29_PM.png");
+
+	/*background-image: url("assets/img/fondos2.jpg");*/
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+}
+
+/*
+.texto-imagen {
+	font-family: 'Aladin', cursive;
+	text-shadow: 2px 5px 10px rgba(26, 0, 0, 0.44);
+	letter-spacing: 5px;
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 480px;
+	left: 0;
+	right: 0;
+}
+
+.texto-imagen h2 {
+	text-align: center;
+	font-size: 80px;
+	line-height: 70px;
+	margin-bottom: 10px;
+}
+
+.texto-imagen h3 {
+	font-size: 70px;
+	margin-bottom: 10px;
+}
+
+.texto-imagen p {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+*/
+
+
+
+/*Testimonios*/
+
+.img-testimonios {
+	width: 400px
+}
+
+
+
+

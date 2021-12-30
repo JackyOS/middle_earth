@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+/* Contenedor ofertas*/
+.contenedor-tarjetas-titulo {
+	text-align: center;
+	margin-bottom: 30px;
+}
+/*
+#f6f6f4
+696969
+*/
+.atracciones-contenedor {
+	background-color: #f6f6f4;
+}
+
+.contenedor-tarjetas {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tarjeta-curso {
+	border-radius: 10px;
+	max-width: 400px;
+	min-width: 350px;
+	flex-grow: 1;
+	margin: 0 5px 25px;
+	/*padding: 15px 5px;*/
+	text-align: center;
+	box-shadow: 0 2px 15px #000;
+	transition: transform 0.6s;
+	color: #000 ;
+	background: #fff;
+	/*
+	background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+	background: linear-gradient(to right, #605C3C, #3C3B3F);
+	background: linear-gradient(to right, #283048, #859398);
+*/
+
+}
+
+.tarjeta-curso:hover {
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+	transform: scale(1.03);
+	/* cursor: pointer; */
+}
+
+.tarjeta-img {
+	margin: 0;
+	width: 100%;
+	height: 32vh;
+	border-radius: 10px;
+}
+
+.tarjeta-texto {
+	padding: 0 5px;
+	height: 35vh; 
+}
+
+.tarjeta__titulo {
+	color: #000;
+	font-size: 35px;
+	/* line-height: 35px; */
+	margin: 15px 0 5px;
+}
+
+.tarjeta__p {
+	color: #000;
+	font-weight: 300;
+}
+
