@@ -2,7 +2,18 @@
 <html>
 <head>
 <jsp:include page="partials/head.jsp"></jsp:include>
+
+<style type="text/css">
+
+.fondo {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+</style>
+
 </head>
+
+
 
 <body>
 
@@ -27,7 +38,7 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active" >
 				<img src="/turismo/assets/img/fondo7.jpg" class="d-block w-100 h-100" alt="1">
-				<div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-md-block fondo">
 					<h1>- TOURS EN FAMILIA -</h1>
 					<h3>UN AUTENTICO AGASAJO HOBBIT CON FOGONES Y <br> 
 					MUSICA EN VIVO PARA TODAS LAS EDADES</h3>
@@ -35,7 +46,7 @@
 			</div>
 			<div class="carousel-item">
 				<img src="/turismo/assets/img/fondo1.jpeg" class="d-block w-100 h-100" alt="2">
-				<div class="carousel-caption d-none d-md-block">
+				<div class="carousel-caption d-none d-md-block fondo">
 					<h1>- ADRENALINA -</h1>
 					<h3>AVENTURA EXTREMA VOLANDO CON AGUILAS <br>
 					ENTRENADAS Y GUÍAS EXPERIMENTADOS</h3>
@@ -43,8 +54,8 @@
 			</div>
 			<div class="carousel-item">
 			<img src="/turismo/assets/img/fondo5.jpg" class="d-block w-100 h-100" alt="3">
-				<div class="carousel-caption d-none d-md-block">
-					<h1 style="background-color: rgba(192, 52, 84, 0.6);">- GOURMET XP -</h1>
+				<div class="carousel-caption d-none d-md-block fondo">
+					<h1 >- GOURMET XP -</h1>
 					<h3>DISFRUTA UNA INOLVIDABLE DEGUSTACIÓN DE LOS <br> 
 					TÍPICOS PLATOS DE COCINA DE LA EDAD MEDIA</h3>
 				</div>
@@ -62,6 +73,9 @@
 		</button>
 	</div>
 	<!-- FIN CARROUSEL -->
+	
+	
+	
 
 
 	<jsp:include page="/partials/footer.jsp"></jsp:include>

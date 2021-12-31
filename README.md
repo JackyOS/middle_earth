@@ -1,8 +1,12 @@
-# Turismo en la Tierra Media
+# Turismo en la Tierra Media - desarrollado con Java
 
 Esta aplicación web tiene como objetivo demostrar el uso de las herramientas vistas a lo largo del curso, coordinadas e interactuando para brindar parte de la funcionalidad solicitada.
 
 Puede utilizarse como base, o como referencia para continuar el desarrollo.
+
+Cuenta con crud para agregar atracciones, promociones y usuarios.
+http://localhost:8080/turismo/admin/login
+Las contraseñas son iguales que los nombres de usuario.
 
 ## Cómo hacerlo funcionar
 
@@ -14,5 +18,4 @@ Puede utilizarse como base, o como referencia para continuar el desarrollo.
 
 1. El archivo de la base de datos NO debería estar en el proyecto. Sin embargo, se adjunta para tener uno de referencia.
 2. Las contraseñas deberían guardarse con un cifrado de una sola dirección.
-3. Debería guardarse el itinerario.
-4. Podría integrarse una API para obtener información sobre el clima o las atracciones.
+3. Podría integrarse una API para obtener información sobre el clima o las atracciones.
